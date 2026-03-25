@@ -8,8 +8,7 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "doraTest",
-            path: "Sources"
+            name: "doraTest"
         )
     ]
 )
