@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "doraTest",
     platforms: [
-        .iOS(.v18)
+        .iOS(.v17)
     ],
     targets: [
         .executableTarget(
