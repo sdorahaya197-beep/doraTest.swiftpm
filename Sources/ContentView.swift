@@ -9,7 +9,3 @@ struct ContentView: View {
         .controlSize(.large)
     }
 }
-
-#Preview {
-    ContentView()
-}
