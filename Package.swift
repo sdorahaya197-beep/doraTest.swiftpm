@@ -1,14 +1,15 @@
-// swift-tools-version: 5.9
+// swift-tools-version: 5.5
 import PackageDescription
 
 let package = Package(
     name: "doraTest",
     platforms: [
-        .iOS(.v17)
+        .iOS("16.0")
     ],
     targets: [
         .executableTarget(
-            name: "doraTest"
+            name: "doraTest",
+            path: "."
         )
     ]
 )
