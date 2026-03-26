@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 
 @main
 struct DoraTestApp: App {
@@ -6,5 +7,6 @@ struct DoraTestApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Race.self)
     }
 }
