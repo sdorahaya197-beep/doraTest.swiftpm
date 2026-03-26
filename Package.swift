@@ -18,8 +18,11 @@ let package = Package(
                 .phone,
                 .pad
             ],
-            appIcon: .placeholder(icon: .person),
-            accentColor: .presetColor(.blue)
+            supportedInterfaceOrientations: [
+                .portrait,
+                .landscapeLeft,
+                .landscapeRight
+            ]
         )
     ],
     targets: [
